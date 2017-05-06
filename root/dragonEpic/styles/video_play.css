@@ -1,0 +1,148 @@
+/* ===============侧导航 begin=============== */
+#slide-nav{
+	position:fixed;
+	display:none;
+	right:40px;
+	top:50%;
+	margin-top:-390px;
+	width:100px;
+	z-index:101;
+}
+#slide-nav ul{
+	width:100%;
+}
+#slide-nav ul li{
+	width:100%;
+	height:80px;
+	overflow:hidden;
+	text-align:center;
+	color:#fff;
+	background:#171717;
+	border-bottom:1px solid #393939;
+}
+#slide-nav ul li img{
+	display:block;
+	margin:20px auto 0;
+}
+#slide-nav ul li.active{
+	background:#c2531d;
+}
+.qr-code{
+	height:138px;
+	text-align:center;
+	background:#fff;
+}
+.go-top{
+	height:80px;
+	overflow:hidden;
+	background:#1b50ab;
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+}
+.go-top img{
+	margin:20px auto 0;
+}
+
+/* ===============侧导航 end=============== */
+
+
+/* ===============头部导航 begin=============== */
+#header{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:166px;
+	z-index:102;
+	background:url(./../images/nav_bg.png) no-repeat center;
+}
+#header .nav{
+	height:100%;
+}
+h1{
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-72px;	
+}
+.nav-bar{
+	margin-top:36px;
+	
+}
+.nav-bar li{
+	float:left;
+	width:140px;
+	text-align:center;
+}
+.nav-bar a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:#ffbd58;
+}
+.nav-bar li p{
+	display:block;
+	font-size:17px;
+}
+.nav-bar li em{
+	display:block;
+	font-size:10px;
+}
+.nav-bar li.nav-list_unnormal{
+	width:110px;
+}
+.nav-bar li.nav-list_l{
+	text-align:left; 
+}
+.nav-bar li.nav-list_r{
+	text-align:right; 
+}
+.nav-one{
+	float:left;
+}
+.nav-two{
+	float:right;
+}
+/* ===============头部导航 end=============== */
+
+/* ===============Top begin=============== */
+#top{
+	height:440px;
+	width:100%;
+	background:url(../images/game_news_top.png) no-repeat center top;
+}
+
+/* ===============Top end=============== */
+
+/* ===============Container begin=============== */
+#container{
+	width:100%;
+	height:1000px;
+	padding:36px 0;
+	background:url(../images/game_news_bg.png) no-repeat center top;
+}
+.container-c_title{
+	overflow:hidden;
+	border-bottom:2px solid #ffd970;
+	color:#ffd970;
+}
+.container-c_title h2{
+	font-size:33px;
+	margin-bottom:1px;
+	width:100%;
+	line-height:50px;
+	border-bottom:1px solid #ffd970;
+}
+.container-c_title h2 span{
+	margin-top:25px;
+	float:right;
+	line-height:22px;
+	font-size:14px;
+	font-weight:100;
+}
+.container-c_title h2 span a{
+	color:#ffd970;
+}
+
+/* ===============Container end=============== */
